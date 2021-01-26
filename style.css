@@ -1,0 +1,49 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: black;
+}
+
+.input {
+  text-align: center;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  height: 50px;
+  width: 600px;
+  background: grey;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  height: 50px;
+  width: 100px;
+  background: grey;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 3px;
+}
+
+.display {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.forecastDisplay {
+  color: white;
+  text-align: center;
+}
